@@ -3,13 +3,13 @@
 @import "mixins";
 
 #main-nav{
-  background: $deepBlue;
+  background: $greenDay;
   ul{
     width: 100%;
   }
   li{
     float: left;
-    width: (100% / 6);
+    width: (100% / 5);
     @include mQ(600px){
       width: 100%;
     }
@@ -21,7 +21,7 @@
     display: block;
     text-align: center;
     &:hover{
-      background: lighten($deepBlue, 6);
+      background: lighten($greenDay, 6);
     }
   }
 
@@ -32,27 +32,28 @@ section h1{
   margin: 40px 0;
   text-align: center;
   text-transform: uppercase;
-  color: $deepBlue;
+  color: $greenDay;
   font-size: $sectionHeading;
 }
 
 #services{
   li{
     float: left;
-    width: 33.33%;
+    width: 20%;
     box-sizing: border-box;
     text-align: center;
   }
   img{
-    width: 60%;
+    width: 140px;
+    height: 200px;
     margin: 20px 20%;
   }
   a{
     text-decoration: none;
-    color: $deepBlue;
+    color: $greenDay;
     font-weight: bold;
     &:hover{
-      color: complement($deepBlue);
+      color: complement($greenDay);
     }
   }
   @include clearFix;
