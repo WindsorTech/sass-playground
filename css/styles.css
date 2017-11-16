@@ -66,12 +66,16 @@ section h1 {
     width: 140px;
     height: 200px;
     margin: 20px 20%; }
+  #services img:hover {
+    -webkit-transform: scaleY(-1);
+    -ms-transform: scaleY(-1);
+    transform: scaleY(-1); }
   #services a {
     text-decoration: none;
     color: #249615;
     font-weight: bold; }
     #services a:hover {
-      color: #871596; }
+      color: #bc7605; }
   #services:after {
     content: "";
     display: block;

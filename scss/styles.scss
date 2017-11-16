@@ -48,12 +48,16 @@ section h1{
     height: 200px;
     margin: 20px 20%;
   }
+  img:hover {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+  }
   a{
     text-decoration: none;
     color: $greenDay;
     font-weight: bold;
     &:hover{
-      color: complement($greenDay);
+      color: complement($blueWriting);
     }
   }
   @include clearFix;
