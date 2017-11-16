@@ -80,6 +80,22 @@ section h1{
 #projects li{
   @include grid(6, 2%);
   img{
-    width: 100%;
+    width: 160px;
+    height: 200px;
+    border-radius: 70%;
   }
+  p {
+    color: $blueWriting;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+#footer {
+  background: $greenDay;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 300px;
+  color: $offWhite;
+  text-align: center;
 }

@@ -146,4 +146,18 @@ section h1 {
   #projects li:nth-child(6n) {
     margin-right: 0; }
   #projects li img {
-    width: 100%; }
+    width: 160px;
+    height: 200px;
+    border-radius: 70%; }
+  #projects li p {
+    color: #054bbc;
+    font-weight: bold;
+    text-align: center; }
+
+#footer {
+  background: #249615;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 300px;
+  color: #f8f9fb;
+  text-align: center; }
