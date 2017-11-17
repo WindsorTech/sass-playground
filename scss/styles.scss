@@ -49,8 +49,7 @@ section h1{
     margin: 20px 20%;
   }
   img:hover {
-    -webkit-transform: scaleY(-1);
-    transform: scaleY(-1);
+    @include opacity;
   }
   a{
     text-decoration: none;
@@ -86,11 +85,15 @@ section h1{
   img{
     width: 160px;
     height: 200px;
-    border-radius: 70%;
+    border-radius: 200px;
+  }
+  img:hover {
+    @include upsideDown;
   }
   p {
     color: $blueWriting;
     font-weight: bold;
+    font-size: 18px;
     text-align: center;
   }
 }

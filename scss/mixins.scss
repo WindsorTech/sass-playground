@@ -60,3 +60,12 @@
     }
   }
 }
+
+@mixin opacity {
+  opacity: 0.5;
+}
+
+@mixin upsideDown {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}

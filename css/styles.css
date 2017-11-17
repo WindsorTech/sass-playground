@@ -67,9 +67,7 @@ section h1 {
     height: 200px;
     margin: 20px 20%; }
   #services img:hover {
-    -webkit-transform: scaleY(-1);
-    -ms-transform: scaleY(-1);
-    transform: scaleY(-1); }
+    opacity: 0.5; }
   #services a {
     text-decoration: none;
     color: #249615;
@@ -152,10 +150,15 @@ section h1 {
   #projects li img {
     width: 160px;
     height: 200px;
-    border-radius: 70%; }
+    border-radius: 200px; }
+  #projects li img:hover {
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1); }
   #projects li p {
     color: #054bbc;
     font-weight: bold;
+    font-size: 18px;
     text-align: center; }
 
 #footer {
