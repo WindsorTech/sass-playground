@@ -47,16 +47,16 @@ section h1{
     width: 140px;
     height: 200px;
     margin: 20px 20%;
+    &:hover {
+      @include opacity;
   }
-  img:hover {
-    @include opacity;
   }
   a{
     text-decoration: none;
     color: $greenDay;
     font-weight: bold;
     &:hover{
-      color: complement($blueWriting);
+      color: complement($linkHover);
     }
   }
   @include clearFix;
@@ -90,11 +90,15 @@ section h1{
   img:hover {
     @include upsideDown;
   }
-  p {
+  a {
     color: $blueWriting;
     font-weight: bold;
     font-size: 18px;
     text-align: center;
+    text-decoration: none;
+    &:hover{
+      color: complement($linkHover);
+    }
   }
 }
 

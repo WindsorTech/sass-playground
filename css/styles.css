@@ -66,14 +66,14 @@ section h1 {
     width: 140px;
     height: 200px;
     margin: 20px 20%; }
-  #services img:hover {
-    opacity: 0.5; }
+    #services img:hover {
+      opacity: 0.5; }
   #services a {
     text-decoration: none;
     color: #249615;
     font-weight: bold; }
     #services a:hover {
-      color: #bc7605; }
+      color: #999692; }
   #services:after {
     content: "";
     display: block;
@@ -155,11 +155,14 @@ section h1 {
     -webkit-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
     transform: scaleX(-1); }
-  #projects li p {
+  #projects li a {
     color: #054bbc;
     font-weight: bold;
     font-size: 18px;
-    text-align: center; }
+    text-align: center;
+    text-decoration: none; }
+    #projects li a:hover {
+      color: #999692; }
 
 #footer {
   background: #249615;
