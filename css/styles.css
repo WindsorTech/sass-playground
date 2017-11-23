@@ -134,6 +134,15 @@ section h1 {
     .lessons-banner {
       max-height: 640px;
       overflow: hidden; } }
+  .lessons-banner .title {
+    background-color: #e8df3c;
+    margin-top: -20px;
+    width: 45%;
+    text-align: center; }
+  .lessons-banner .sub-title {
+    background-color: #0c9b26;
+    width: 45%;
+    text-align: center; }
   .lessons-banner li {
     text-transform: uppercase;
     font-size: 20px;

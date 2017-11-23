@@ -71,6 +71,17 @@ section h1{
 .lessons-banner{
   @include banner;
   text-align: left;
+  .title {
+    background-color: #e8df3c;
+    margin-top: -20px;
+    width: 45%;
+    text-align: center;
+  }
+  .sub-title {
+    background-color: #0c9b26;
+    width: 45%;
+    text-align: center;
+  }
 
   li{
     text-transform: uppercase;
