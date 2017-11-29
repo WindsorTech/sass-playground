@@ -37,28 +37,35 @@ section h1{
 }
 
 #services{
-  li{
-    float: left;
-    width: (100% / 5);
-    box-sizing: border-box;
+  ul {
     text-align: center;
+    float: left;
+    margin-right: 35px;
+  }
+  li {
+    float: left;
   }
   img{
-    width: 140px;
-    height: 200px;
-    margin: 20px 20%;
+    width: 160px;
+    height: 220px;
+    margin-right: 5px;
     &:hover {
       @include opacity;
   }
   }
-  a{
+  p{
     text-decoration: none;
     color: $greenDay;
     font-weight: bold;
+    font-size: 20px;
     &:hover{
       color: $linkHover;
     }
   }
+  .list-item {
+    margin-top: 30px;
+  }
+
   @include clearFix;
   margin-bottom: 60px;
 }
