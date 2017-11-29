@@ -33,7 +33,8 @@ li {
     width: 20%; }
     @media screen and (max-width: 600px) {
       #main-nav li {
-        width: 100%; } }
+        width: 100%;
+        font-size: 40px; } }
   #main-nav a {
     color: #f8f9fb;
     text-decoration: none;
