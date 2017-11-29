@@ -56,27 +56,24 @@ section h1 {
 
 #services {
   margin-bottom: 60px; }
-  #services ul {
-    text-align: center;
-    float: left;
-    margin-right: 35px; }
   #services li {
-    float: left; }
+    float: left;
+    width: 20%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center; }
   #services img {
-    width: 160px;
-    height: 220px;
-    margin-right: 5px; }
+    width: 140px;
+    height: 200px;
+    margin: 20px 20%; }
     #services img:hover {
       opacity: 0.5; }
-  #services p {
+  #services a {
     text-decoration: none;
     color: #249615;
-    font-weight: bold;
-    font-size: 20px; }
-    #services p:hover {
+    font-weight: bold; }
+    #services a:hover {
       color: #929599; }
-  #services .list-item {
-    margin-top: 30px; }
   #services:after {
     content: "";
     display: block;
